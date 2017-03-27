@@ -71,7 +71,7 @@ for col = 1:(columnsPipes - 1)
 end
 
 % Zone 3 Analysis
-zone3Data = zeros(rowsPipes - 1, 4);
+zone3Data = zeros(rowsPipes - 1, 5);
 bendColOne = 1;
 bendColTwo = 3;
 bendLossOne = bendData(2, bendColOne);
